@@ -1,3 +1,10 @@
+# in order to run the script locally, follow these steps:
+# install python
+# install following libraries: requests, BeautifulSoup, smtplib, email.mime, datetime
+# install mailhog and run mailhog
+# run script with python3 hackernews-via-email.py
+# mails can be checked on http://0.0.0.0:8025/ per default
+
 import requests  # http requests
 from bs4 import BeautifulSoup  # webscraping
 import smtplib  # sending email
